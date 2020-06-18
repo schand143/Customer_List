@@ -10,13 +10,25 @@ You can use either npm or yarn to install json-server on your machine. This will
 
 Next, you will create a JSON file that will contain the data that will be exposed by the REST API. For the objects specified in this file (which you’ll create), a CRUD endpoint will be generated automatically. To begin, create a new folder named server and then move into it:
 
-### mkdir server
+mkdir server
 
-### cd server
+cd server
 
 ## Now, use nano to create and open a new file named db.json:
 
-### nano db.json
+nano db.json
+
+The JSON structure consists of a customer object, which has two datasets assigned. Each customer consists of seven properties: id, description, first_name, last_name, email, phone, and address.
+
+Save and exit the file.
+
+By default, the json-server runs on port 3000—this is the same port on which your React application runs. To avoid conflict, you can change the default port for the json-server. To do that, move to the root directory of the application:
+
+cd ~/typescript-react-app
+
+Open the application with your preferred text editor and create a new file named json-server.json:
+
+nano json-server.json
 
 ## Available Scripts
 
