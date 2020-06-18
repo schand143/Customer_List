@@ -24,7 +24,7 @@ Save and exit the file.
 
 By default, the json-server runs on port 3000—this is the same port on which your React application runs. To avoid conflict, you can change the default port for the json-server. To do that, move to the root directory of the application:
 
-cd ~/typescript-react-app
+cd ~/Customer_List
 
 Open the application with your preferred text editor and create a new file named json-server.json:
 
